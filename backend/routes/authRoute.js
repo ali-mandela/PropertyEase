@@ -6,7 +6,7 @@ const { signUpController,signInController,oAuthController } = require("../contro
 
 router.post('/sign-up', signUpController);
 router.post('/sign-in', signInController);
-router.post('/google', oAuthController);
+router.post('/google-auth', oAuthController);
 
 
 
