@@ -11,7 +11,7 @@ app.use(express.json())
 app.use('/api/user', require('./routes/userRoute'));
 app.use('/api/auth', require('./routes/authRoute'));
 
-const port = process.env.port || 8080;
+const port = process.env.PORT || 8080;
 
 app.listen(port, () => {
     console.log(`server is live on port : ${port}`);
